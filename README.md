@@ -1,4 +1,4 @@
-# My Science Portfolio
+# My  Portfolio
 This repository contains the HTML and CSS code for my data science portfolio hosted on GithubPages. The website showcases my skills and experience in data science, including machine learning, data analysis, and data visualization.
 
 
