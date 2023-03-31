@@ -13,7 +13,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin-bottom: 40px;
+	margin-bottom: 10px;
   }
   
   h1 {
@@ -30,18 +30,18 @@
 	font-weight: bold;
 	color: #333;
 	margin: 0;
-	padding: 40px 0;
+	padding: 10px 0;
 	background-size: cover;
   }
   
   .name {
 	font-size: 1rem;
 	font-weight: bold;
-	color: #333;
+	color: #A0522D; 
 	margin: 0;
   }
   .profile-picture-container {
-	margin-left: 20px;
+	float: right;
   }
   
   .container {
@@ -53,7 +53,7 @@
   h2 {
 	font-size: 2rem;
 	font-weight: 600;
-	color: #333;
+	color: #9e3c3c;
 	margin: 20px 0;
   }
   
