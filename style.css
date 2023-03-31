@@ -95,6 +95,39 @@
   
   .project-description {
 	margin: 0;
+<<<<<<< HEAD
+  }
+  
+  .project-description-container {
+	margin: 0 0 20px;
+  }
+  
+  .project-steps {
+	margin: 10px 0;
+	padding-left: 20px;
+  }
+  
+  /* Section styles */
+  .section {
+	margin: 40px 0;
+  }
+  
+  .section-title {
+	font-size: 2rem;
+	font-weight: 600;
+	color: #333;
+	margin: 0 0 20px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #ccc;
+  }
+  
+  /* Footer styles */
+  footer {
+	margin-top: 40px;
+	padding-top: 20px;
+	border-top: 2px solid #ccc;
+=======
+>>>>>>> 045ce34128adf2deda42b174a8457123a3ea8064
   }
   
   .project-description-container {
