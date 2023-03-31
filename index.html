@@ -13,46 +13,105 @@
         <!-- Add hero image as background -->
         <header>
           <h2 class="name" color="red">Marc Davies'</h2>
+
+          <div class="profile-picture-container">
+            <!-- Add profile picture -->
+            <img src="images/pic.jpg" alt="Profile Picture" style="height: 300px; width: 300px; object-fit: cover; border-radius: 50%;">
+  
+          </div>
           <h1 class="title" style="background-image: url('hero-image.jpg');">Python Development and Data Science Portfolio</h1>
-        </header>
-         
+
+        </header>    
         <div class="profile-picture-container">
           <!-- Add profile picture -->
          
         </div>
         <h2>Emerging Data Scientist with Extensive SQL Experience</h2>
-        <div class="profile-picture-container">
-          <!-- Add profile picture -->
-          <img src="images/pic.jpg" alt="Profile Picture" style="height: 200px; width: 200px; object-fit: cover; border-radius: 50%;">
-        </div>
+
         <p>With 15 years of experience in financial services, 10 in data and analysis, 
           I am currently training to become a data scientist with a focus on machine 
           learning and artificial intelligence. Below are some of the <strong>Data 
             Science and Machine Learning</strong> projects I have worked on:</p>
       </header>
 
-      <section class="section">
-        <h3 class="section-title">Projects</h3>
-        <ul>
-          <li class="project">
-            <h4 class="project-title">Forecasting self-recovery among delinquent customers to reduce operational expenses</h4>
-            <p class="project-description">In this project, I utilized a decision tree algorithm to anticipate self-cure among delinquent customers, which in turn helps to decrease operational expenses. The results of the project exhibited promising outcomes, and the algorithm was able to predict the self-recovery among delinquent customers with great accuracy. The use of this model can assist in reducing operational expenses and aid in predicting potential issues that may arise with customers.</p>
-          </li>
-          <li class="project">
-            <h4 class="project-title">Predicting House Prices using Machine Learning Techniques: A Comprehensive End-to-End Project</h4>
-            <div class="project-description-container">
-              <p>Looking to bridge the gap in my technical ability and Python experience, I turned to a project in which I applied various machine learning techniques to predict house prices.</p>
-              <p>The end-to-end machine learning project involved:</p>
-              <ul class="project-steps" style="list-style-type: disc;">
-                <li>Data preprocessing</li>
-                <li>Exploratory data analysis</li>
-                <li>Feature engineering</li>
-                <li>Model selection</li>
-                <li>Hyperparameter tuning</li>
-              </ul>
-              <p>For this project, I utilized decision trees and random forests to predict house prices using machine learning techniques. To ensure that the models were accurate and could be applied to new data, I evaluated them using mean squared error and cross-validation techniques. The results showed that the random forest model outperformed the decision tree model and was selected to make predictions on new data.</p>
-            </div>
-          </li>
+<section class="section">
+  <h3 class="section-title">Projects</h3>
+  <ul>
+    <li class="project">
+      <h4 class="project-title">Predicting self-cure to reduce recovery costs on delinquent customers</h4>
+      <div style="max-width: 100%; max-height: 300px; overflow: hidden; border-radius: 5px;">
+        <img src="images/sc.png" alt="Profile Picture" style="width: 100%; height: auto; max-height: 250px; object-fit: contain;">
+      </div>
+      <p class="project-description">
+        The goal was to identify customers who would pay regardless of attempted collections calls and save resources.
+        The project is now on the roadmap for delivery in 2023, thanks to collaboration with the Decision Science team.
+        I initially attempted decision trees before moving onto XGBoost, as I learned that decision trees partition data into subsets based on feature values, while XGBoost uses decision trees and boosting techniques, therefore providing more accurate predictions.</p>
+      <img src="https://img.shields.io/badge/Python-white?logo=Python" alt="">
+      <img src="https://img.shields.io/badge/sklearn-white?logo=scikit-learn" alt="">   
+      <img src="https://img.shields.io/badge/MySQL-white?logo=MySQL" alt="MySQL badge">
+    </li>
+    <li class="project">
+      <h4 class="project-title">Predicting House Prices using Machine Learning Techniques: A Comprehensive End-to-End Project</h4>
+      <div class="project-description-container">
+        <p>Looking to bridge the gap in my technical ability and Python experience, after being recommended <B>O'Reilly's Hand's On Machine Learning with Scikit-Learn and Tensor Flow</B>, I turned to a project in which I applied various machine learning techniques to predict house prices. </p>
+        <p>The end-to-end machine learning project involved:</p>
+        <ul class="project-steps" style="list-style-type: disc;">
+          <li>Data preprocessing</li>
+          <li>Exploratory data analysis</li>
+          <li>Feature engineering</li>
+          <li>Model selection</li>
+          <li>Hyperparameter tuning</li>
+        </ul>
+        <p>For this project, I utilized decision trees and random forests to predict house prices using machine learning techniques. I learned multiple elements of the ML process, best practices as well as how to ensure that the models were accurate and could be applied to new data, I evaluated them using mean squared error and cross-validation techniques. The results showed that the random forest model outperformed the decision tree model and was selected to make predictions on new data.</p>
+        <img src="https://img.shields.io/badge/Python-white?logo=Python" alt="">
+        <img src="https://img.shields.io/badge/sklearn-white?logo=scikit-learn" alt=""> 
+      </div>
+    </li>
+    <li class="project">
+      <h4 class="project-title">Optimising Call Center Performance by Identifying the Best Time to Dial using SQL and Segmentation Analysis</h4>
+      <div style="max-width: 100%; max-height: 300px; overflow: hidden; border-radius: 5px;">
+        <img src="images/BTTD.png" alt="Profile Picture" style="width: 100%; height: auto; max-height: 250px; object-fit: contain;">
+      </div>
+      <div class="project-description-container">
+        <p>As a part of my journey to become a Machine Learning Engineer, I worked on a project to optimize call center operations using machine learning techniques. The goal of this project was to identify the best time to dial by hour of day, age, and gender using internal data and SQL. I utilized machine learning algorithms to build a model that could predict the right party contact (RPC) rate for each hour of the day based on historical data.</p>
+        <p>The project involved the following steps:</p>
+        <ul class="project-steps" style="list-style-type: disc;">
+          <li>Data collection and preprocessing</li>
+          <li>SQL database design and implementation</li>
+          <li>Feature engineering and selection</li>
+          <li>Model selection and training</li>
+          <li>Hyperparameter tuning</li>
+          <li>Evaluation using various metrics such as accuracy, precision, recall, and F1 score</li>
+        </ul>
+        <p>The results of this project showed that the machine learning model was able to accurately predict the RPC rate by age and gender group for each hour of the day, thus enabling the call center to optimize its operations and reduce operational expenses.  </p>
+        <img src="https://img.shields.io/badge/SQL-white?logo=Microsoft%20SQL%20Server" alt="">
+        <img src="https://img.shields.io/badge/Python-white?logo=Python" alt="">
+        <img src="https://img.shields.io/badge/scikit--learn-white?logo=scikit-learn" alt=""> 
+      </div>
+    </li>
+
+<li class="project">
+  <h4 class="project-title">Red-Technologies.co.za</h4>
+
+  <div style="max-width: 100%; max-height: 300px; overflow: hidden; border-radius: 5px;">
+    <img src="images/red.png" alt="Profile Picture" style="width: 100%; height: auto; max-height: 250px; object-fit: contain;">
+  </div>
+  <div class="project-description-container">
+    <p>In this project, I built a website from scratch using HTML and CSS to provide information and support for my father's business, Red Technologies. The website was designed to be user-friendly and informative, with a focus on showcasing the company's products and services.</p>
+    <p>The website included the following features:</p>
+    <ul class="project-steps" style="list-style-type: disc;">
+      <li>Responsive design to ensure that the website looked great on all devices</li>
+      <li>Clean and modern design to enhance the user experience</li>
+      <li>Product and service pages with detailed information</li>
+      <li>Contact page with a form for customers to get in touch with the company has since been developed and is currently hosted at redtech.info</li>
+    </ul>
+    <p>The website was successfully launched and has been well-received by customers, helping to increase business for Red Technologies.</p>
+    <img src="https://img.shields.io/badge/HTML5-white?logo=html5" alt="">
+  </div>
+</li>
+</div>
+</li>
+
         </ul>
       </section>
 
@@ -71,7 +130,7 @@
     
     <footer>
       <p>Phone: 074 583 03826</p>
-      <p>Email: matt.s.chapman@gmail.com</p>
+      <p>Email: marcrdavies26@gmail.com</p>
     </footer>
   </div>
 </body>
