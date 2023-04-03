@@ -143,9 +143,9 @@
   .progress-bar-container {
 	background-color: #ddd;
 	border-radius: 5px;
-	height: 20px;
+	height: 19px;
 	margin-bottom: 10px;
-	overflow: hidden;
+	overflow: hidden; 
 	width: 100%;
   }
   
