@@ -195,3 +195,17 @@
 	border-top: 2px solid #ccc;
   }
   
+  @media (max-width: 767px) {
+	.linkedin-button {
+	  font-size: 14px;
+	  padding: 8px 16px;
+	}
+	
+	.progress-bar-container {
+	  height: 15px;
+	}
+	
+	.progress-bar {
+	  font-size: 10px;
+	}
+  }
