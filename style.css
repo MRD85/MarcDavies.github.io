@@ -76,8 +76,16 @@
   
   ul {
 	list-style: none;
+	margin: 20px;
 	padding: 0;
-	margin: 0;
+
+  }
+
+  ultwo {
+	list-style: disc;
+	margin-left: 40px;
+	padding: 0;
+
   }
   
   li {
@@ -108,7 +116,6 @@
   
   .project-description {
 	margin: 0;
-<<<<<<< HEAD
   }
   
   .project-description-container {
@@ -133,14 +140,29 @@
 	padding-bottom: 10px;
 	border-bottom: 2px solid #ccc;
   }
+  .progress-bar-container {
+	background-color: #ddd;
+	border-radius: 5px;
+	height: 20px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	width: 100%;
+  }
   
+  .progress-bar {
+	background-color: #4caf50;
+	border-radius: 5px;
+	color: white;
+	font-size: 12px;
+	height: 100%;
+	text-align: center;
+	transition: width 0.5s;
+  }
   /* Footer styles */
   footer {
 	margin-top: 40px;
 	padding-top: 20px;
 	border-top: 2px solid #ccc;
-=======
->>>>>>> 045ce34128adf2deda42b174a8457123a3ea8064
   }
   
   .project-description-container {
